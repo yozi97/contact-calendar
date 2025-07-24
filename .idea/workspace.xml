@@ -4,25 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e19bba8-ccea-4ad6-a044-b8a698a10a4e" name="Changes" comment="" />
+    <list default="true" id="0aab5fe8-c35f-4f19-9b24-15f65e4b0675" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zijad/contactcalendar/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zijad/contactcalendar/controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zijad/contactcalendar/model/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zijad/contactcalendar/model/Content.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zijad/contactcalendar/controller/ContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zijad/contactcalendar/controller/ContentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zijad/contactcalendar/model/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zijad/contactcalendar/model/Content.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zijad/contactcalendar/repository/ContentCollectionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zijad/contactcalendar/repository/ContentCollectionRepository.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Record" />
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
-  <component name="ProjectId" id="30FS0GoxyaD1QtqHkScmxuVP13H" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="30HAOu9cHDg5HJdd1Ym7pLL3DPb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,18 +45,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ContactCalendarApplication.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/DT User/Desktop/contact-calendar"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/contact-calendar"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zijad.contactcalendar.model" />
-    </key>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ContactCalendarApplication">
     <configuration name="ContactCalendarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zijad.contactcalendar.ContactCalendarApplication" />
       <module name="contact-calendar" />
@@ -55,19 +68,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ContactCalendarApplication" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e19bba8-ccea-4ad6-a044-b8a698a10a4e" name="Changes" comment="" />
-      <created>1753221603129</created>
+      <changelist id="0aab5fe8-c35f-4f19-9b24-15f65e4b0675" name="Changes" comment="" />
+      <created>1753274095673</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1753221603129</updated>
+      <updated>1753274095673</updated>
     </task>
     <servers />
   </component>
